@@ -1,0 +1,22 @@
+{
+  "name": "rollup-sideeffects",
+  "version": "1.0.0",
+  "description": "mvr of rollup not removing an external side effect import",
+  "module": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@itwin/core-electron": "^3.3.4",
+    "@itwin/electron-authorization": "^0.8.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.0.1",
+    "rollup": "^2.79.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
