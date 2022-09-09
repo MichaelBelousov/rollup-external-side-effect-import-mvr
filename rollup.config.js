@@ -5,13 +5,11 @@ export default {
   input: "index.js",
   output: {
     file: "bundle.js",
-    format: "cjs",
+    format: "esm",
   },
-  //external: ["electron"],
-  /*
+  external: ["electron"],
   treeshake: {
     moduleSideEffects: "no-external",
   },
-  */
   plugins: [resolve(), commonjs()],
 };
